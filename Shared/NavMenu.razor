@@ -22,13 +22,32 @@
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
         </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="blog/test">
-                <span class="oi oi-plus" aria-hidden="true"></span> Blog
-            </NavLink>
-        </li>
     </ul>
+    <RadzenMenu>
+        <ChildContent>
+            <RadzenMenuItem Text="General" Icon="home">
+                <RadzenMenuItem Text="Buttons" Path="buttons" Icon="account_circle"></RadzenMenuItem>
+                <RadzenMenuItem Text="Menu" Path="menu" Icon="line_weight"></RadzenMenuItem>
+                <RadzenMenuItem Text="FileInput" Path="fileinput" Icon="attach_file"></RadzenMenuItem>
+                <RadzenMenuItem Text="Dialog" Path="dialog" Icon="perm_media"></RadzenMenuItem>
+                <RadzenMenuItem Text="Notification" Path="notification" Icon="announcement"></RadzenMenuItem>
+            </RadzenMenuItem>
+            <RadzenMenuItem Text="More">
+                <RadzenMenuItem Text="Item1"></RadzenMenuItem>
+                <RadzenMenuItem Text="Item2"></RadzenMenuItem>
+                <RadzenMenuItem Text="More items">
+                    <RadzenMenuItem Text="More sub items">
+                        <RadzenMenuItem Text="Item1"></RadzenMenuItem>
+                        <RadzenMenuItem Text="Item2"></RadzenMenuItem>
+                    </RadzenMenuItem>
+                </RadzenMenuItem>
+            </RadzenMenuItem>
+        </ChildContent>
+    </RadzenMenu>
 </div>
+
+
+
 
 @code {
     bool collapseNavMenu = true;
@@ -40,3 +59,16 @@
         collapseNavMenu = !collapseNavMenu;
     }
 }
+
+@code {
+    bool collapseBlogMenu = false;
+
+    string BlogMenuCssClass => collapseBlogMenu ? "collapse" : null;
+
+    void ToggleBlogMenu()
+    {
+        collapseBlogMenu = !collapseBlogMenu;
+    }
+}
+
+
