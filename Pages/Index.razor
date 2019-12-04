@@ -1,5 +1,77 @@
 ﻿@page "/"
+<title>Home</title>
 
-<h1>Hello, world!</h1>
+<br>
+<br>
 
-Welcome to your new app.
+<div>
+
+    <br>
+
+    <div class="container-fluid">
+        <img class="homePortraitImage" src="/images/Home/HyperViolets.png" />
+        <div class="row" style="justify-content: center ">
+            <div class="col-xs-9 col-md-9" style="text-align: center">
+                <h3>Juan Aguilar</h3>
+                <h3>IT Professional & System Administrator</h3>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <p class="customTitle"><strong>About Me</strong></p>
+    <p class="generalText">  I enjoy tinkering with technology such as Linux, hardware, and networking. My background is in Information Systems where I spent years being educated in complex computing systems and networks at the enterprise level. This website was built from scratch by me. I utilized ASP.NET and Amazon Web Services (AWS) as the main technologies. This website started off as a Capstone Project for my Senior year at Neumont, but I thought to keep it and expand upon it. Also, the lovely chibi of myself that you see at the top of the page was done by Mioree. Go check out her work at <a href="https://www.twitch.tv/mioree" target="_blank">twitch.tv/mioree</a>. </p>
+
+    <br />
+
+    <p class="customTitle"><strong>Hobbies & Interests</strong></p>
+
+    <button @onclick="ToggleBookMenu"> 
+        <span class="@((collapseBookMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>Book of the Month
+    </button>
+    @if(collapseBookMenu)
+    {
+        <div>
+            <br/>
+            <center><p>One of my New Year's resolutions is to read at least one book each month. Here is a list of books I've read/reading so far.</p></center>
+            <br />
+            <center><p style="font-size:20px"><strong>2019</strong></p></center>
+            <ul>
+                <li>October: Harry Potter and the Prisoner of Azkaban by J.K. Rowling</li>
+                <li>September: Spade Work \(Jack Dillon Dublin Tales Book 6) by Mike Faricy</li>
+                <li>August: Time's Divide by Rysa Walker</li>
+                <li>July: Maximum Impact by Jack Henderson</li>
+                <li>June: Medicine War by Robert J. Conley</li>
+                <li>May: The Bridge of Peace - An Ada's House Novel by Cindy Woodsmall</li>
+                <li>April: Harry Potter and the Chamber of Secrets by J.K. Rowling</li>
+                <li>March: Harry Potter and the Sorcerer's Stone by J.K. Rowling</li>
+                <li>February: Good as Gone: A Novel of Suspense by Amy Gentry</li>
+                <li>January: Eleanor Oliphant is completely fine by Gail Honeyman</li>
+            </ul>
+            <center><p style="font-size:20px"><strong>2018</strong></p></center>
+            <ul>
+                <li>December: Mass Effect: Annihilation by Catherynne M. Valente</li>
+                <li>November: Rhett & Link's Book of Mythicality: A Field Guide to Curiosity, Creativity, and Tomfoolery by Rhett McLaughlin & Link Neal</li>
+                <li>October: Turtles All the Way Down by John Green</li>
+                <li>September: The Projectionist \(a tale of magic & fortune) by Justin Black</li>
+                <li>August: Francis of the Filth by George Miller and Joji</li>
+            </ul>
+        </div>
+    }
+
+    <br />
+
+</div>
+
+<br>
+<br>
+
+@code{
+    bool collapseBookMenu = false;
+
+    void ToggleBookMenu()
+    {
+        collapseBookMenu = !collapseBookMenu;
+    }
+}
