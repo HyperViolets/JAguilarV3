@@ -45,8 +45,5 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.dll
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.pdb
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.csproj.CopyComplete
-/home/juan/Documents/Developing/JAguilarV3/bin/Debug/netcoreapp3.0/JAguilarV3.StaticWebAssets.xml
-/home/juan/Documents/Developing/JAguilarV3/bin/Debug/netcoreapp3.0/Radzen.Blazor.dll
-/home/juan/Documents/Developing/JAguilarV3/bin/Debug/netcoreapp3.0/System.Linq.Dynamic.Core.dll
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/NetworkingHome.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/NetworkingHome.razor.g.cs
