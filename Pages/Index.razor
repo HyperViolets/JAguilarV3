@@ -27,17 +27,17 @@
 
     <p class="customTitle"><strong>Hobbies & Interests</strong></p>
 
-    <button @onclick="ToggleBookMenu"> 
+    <button class="btn myButton" @onclick="ToggleBookMenu"> 
         <span class="@((collapseBookMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>Book of the Month
     </button>
     @if(collapseBookMenu)
     {
         <div>
             <br/>
-            <center><p>One of my New Year's resolutions is to read at least one book each month. Here is a list of books I've read/reading so far.</p></center>
+            <center><p class="generalText">One of my New Year's resolutions is to read at least one book each month. Here is a list of books I've read/reading so far.</p></center>
             <br />
-            <center><p style="font-size:20px"><strong>2019</strong></p></center>
-            <ul>
+            <center><p class="generalText" style="font-size:20px"><strong>2019</strong></p></center>
+            <ul class="bulletPointGeneralText">
                 <li>October: Harry Potter and the Prisoner of Azkaban by J.K. Rowling</li>
                 <li>September: Spade Work (Jack Dillon Dublin Tales Book 6) by Mike Faricy</li>
                 <li>August: Time's Divide by Rysa Walker</li>
@@ -49,8 +49,8 @@
                 <li>February: Good as Gone: A Novel of Suspense by Amy Gentry</li>
                 <li>January: Eleanor Oliphant is completely fine by Gail Honeyman</li>
             </ul>
-            <center><p style="font-size:20px"><strong>2018</strong></p></center>
-            <ul>
+            <center><p class="generalText" style="font-size:20px"><strong>2018</strong></p></center>
+            <ul class="bulletPointGeneralText">
                 <li>December: Mass Effect: Annihilation by Catherynne M. Valente</li>
                 <li>November: Rhett & Link's Book of Mythicality: A Field Guide to Curiosity, Creativity, and Tomfoolery by Rhett McLaughlin & Link Neal</li>
                 <li>October: Turtles All the Way Down by John Green</li>
