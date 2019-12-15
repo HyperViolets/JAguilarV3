@@ -49,3 +49,9 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/NetworkingHome.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Contact.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Contact.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Coding/CodingHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Hardware/HardwareHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Linux/LinuxHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Coding/CodingHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Hardware/HardwareHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Linux/LinuxHome.razor.g.cs
