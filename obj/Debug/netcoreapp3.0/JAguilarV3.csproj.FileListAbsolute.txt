@@ -47,3 +47,5 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.csproj.CopyComplete
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/NetworkingHome.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/NetworkingHome.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Contact.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Contact.razor.g.cs
