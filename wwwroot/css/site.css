@@ -7,11 +7,11 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     /* background-color: #212121; */
-    background-image: linear-gradient(#b39ddb, #212121);
+    background-image: url('/images/meme/mistleToe.png');   
 }
 
 .myFooter{
-    background-color: #333;
+    background-color: #212121;
     color: #CCC;
     width: 100%;
     font-size: 12px;
@@ -42,6 +42,13 @@ html, body {
     height: 100%;
 }
 
+.articleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: 70%;
+}
 /*
     Text and Bullet-Point Text
     -----------------------------------------------------------
@@ -63,7 +70,7 @@ html, body {
     color: #CCC;
 }
 
-.customTitle {
+.generalTitle {
     font-size: 26px;
     margin-left: 16px;
     margin-right: 16px;
@@ -79,16 +86,34 @@ html, body {
     color: #CCC;
 }
 
+.articleTitle {
+    color: #b39ddb;
+    font-size: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+    word-wrap: break-word;
+}
+
+.articleHomeTitle{
+    color: #CCC;
+}
+
+.articleSubTitle {
+    font-size: 13px;
+    color: #CCC;
+}
+
 /*
     Buttons and Links
     -----------------------------------------------------------
 */
 .myButton {
-    background-color: #212121;
-    color: #b39ddb;
-    border-color: #b39ddb;
-    height: 3rem;
+    background-color: #333;
+    color: #CCC;
     
+    border-left: 4px solid #b39ddb;
+    height: 3rem;
+    border-radius: 0rem;
     text-align: left;
     
     width: 100%;
@@ -102,10 +127,10 @@ html, body {
 }
 
 .nav-item a {
-    background-color: #212121;
-    color: #b39ddb;
-    border: 1px solid #b39ddb;
-    border-radius: 4px;
+    background-color: #333;
+    color: #CCC;
+    
+    border-left: 4px solid #b39ddb;
     height: 3rem;
     
     text-align: left;
@@ -124,11 +149,52 @@ html, body {
     border-color: #212121;
 } */
 
-
-
 a {
     color: #b39ddb;
 }
+
+.subMenuItem {
+    margin-left: 40px;
+}
+
+/*
+    CSS for Article Home Pages
+    -----------------------------------------------------------
+*/
+.articleBox {
+    padding-left: 25px;
+    padding-top: 8px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    display: block;
+    background-color: #333;
+}
+
+    .articleBox:hover > p {
+        color: #b39ddb;
+    }
+
+    .articleBox:hover > h3 {
+        color: #b39ddb;
+    }
+
+    .articleBox:hover {
+        background-color: #212121;
+        border: 3px solid #212121;
+        border-radius: 5px;
+    }
+
+hr {
+    border-top: 1px dashed #CCC;
+    text-align: center;
+}
+
+.articleHr{
+    border-top: 1px solid #CCC;
+    text-align: center;
+}
+
+
 
 
 
@@ -156,13 +222,13 @@ app {
 }
 
 .main .top-row {
-    background-color: #333;
+    background-color: #212121;
     color: #CCC;
     justify-content: flex-end;
 }
 
 .main .bottom-row{
-    background-color: #333;
+    background-color: #212121;
     color: #CCC;
     justify-content: flex-end;
 }
@@ -172,7 +238,7 @@ app {
 }
 
 .sidebar {
-    background-color: #333;
+    background-color: #212121;
 }
 
 .sidebar .top-row {

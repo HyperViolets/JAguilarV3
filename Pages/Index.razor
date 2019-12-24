@@ -20,13 +20,13 @@
 
     <br />
 
-    <p class="customTitle"><strong>About Me</strong></p>
+    <p class="generalTitle"><strong>About Me</strong></p>
     <p class="generalText">  I enjoy tinkering with technology such as Linux, hardware, and networking. My background is in Information Systems where I spent years being educated in complex computing systems and networks at the enterprise level. This website was built from scratch by me. I utilized ASP.NET and Amazon Web Services (AWS) as the main technologies. This website started off as a Capstone Project for my Senior year at Neumont, but I thought to keep it and expand upon it. Also, the lovely chibi of myself that you see at the top of the page was done by Mioree. Go check out her work at <a href="https://www.twitch.tv/mioree" target="_blank">twitch.tv/mioree</a>. </p>
 
     <br />
 
-    <p class="customTitle"><strong>Hobbies & Interests</strong></p>
-
+    <p class="generalTitle"><strong>Hobbies & Interests</strong></p>
+    <hr class="articleHr"/>
     <button class="btn myButton" @onclick="ToggleBookMenu"> 
         <span class="@((collapseBookMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>Book of the Month
     </button>
@@ -38,6 +38,7 @@
             <br />
             <center><p class="generalText" style="font-size:20px"><strong>2019</strong></p></center>
             <ul class="bulletPointGeneralText">
+                <li>November: Nevernight by Jay Kristoff</li>
                 <li>October: Harry Potter and the Prisoner of Azkaban by J.K. Rowling</li>
                 <li>September: Spade Work (Jack Dillon Dublin Tales Book 6) by Mike Faricy</li>
                 <li>August: Time's Divide by Rysa Walker</li>
@@ -59,6 +60,7 @@
             </ul>
         </div>
     }
+    <hr class="articleHr"/>
 
     <br>
     <br>
