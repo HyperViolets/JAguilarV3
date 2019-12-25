@@ -26,16 +26,13 @@
     <br />
 
     <p class="generalTitle"><strong>Hobbies & Interests</strong></p>
-    <hr class="articleHr"/>
-    <button class="btn myButton" @onclick="ToggleBookMenu"> 
-        <span class="@((collapseBookMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>Book of the Month
+    <button class="btn myOtherButton" @onclick="ToggleBookMenu"> 
+        <span class="@((collapseBookMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>    Book of the Month
     </button>
     @if(collapseBookMenu)
     {
         <div>
-            <br/>
             <center><p class="generalText">One of my New Year's resolutions is to read at least one book each month. Here is a list of books I've read/reading so far.</p></center>
-            <br />
             <center><p class="generalText" style="font-size:20px"><strong>2019</strong></p></center>
             <ul class="bulletPointGeneralText">
                 <li>November: Nevernight by Jay Kristoff</li>
@@ -60,7 +57,23 @@
             </ul>
         </div>
     }
-    <hr class="articleHr"/>
+
+    <br>
+    <br>
+
+    <button class="btn myOtherButton" @onclick="ToggleVideoGamesMenu"> 
+        <span class="@((collapseVideoGamesMenu ? "oi oi-chevron-top" : "oi oi-chevron-bottom"))" aria-hidden="true"></span>    Video Games I've Played
+    </button>
+    @if(collapseVideoGamesMenu)
+    {
+        <div>
+            <center><p class="generalText">Here is a list of video games I've played and my thoughts on them.</p></center>
+            <center><p class="generalText" style="font-size:20px"><strong>2020</strong></p></center>
+            <ul class="bulletPointGeneralText">
+                <li>Halo Reach (PC version): enjoyed replaying the campaign and playing multiplayer for the first time</li>
+            </ul>
+        </div>
+    }
 
     <br>
     <br>
@@ -72,9 +85,14 @@
 
 @code{
     bool collapseBookMenu = false;
+    bool collapseVideoGamesMenu = false;
 
     void ToggleBookMenu()
     {
         collapseBookMenu = !collapseBookMenu;
+    }
+    void ToggleVideoGamesMenu()
+    {
+        collapseVideoGamesMenu = !collapseVideoGamesMenu;
     }
 }
