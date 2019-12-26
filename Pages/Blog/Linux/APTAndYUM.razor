@@ -1,0 +1,98 @@
+@page "/Blog/Linux/APTAndYUM"
+<title>APT & YUM</title>
+
+<br />
+<br />
+
+<div class="col-md-7 pageFrame">
+
+    <br />
+
+    <hr />
+    <h2 style="margin-left:15px;margin-right:15px;" class="articleTitle">APT & YUM</h2>
+
+    <p class="generalText"><strong>By Juan Aguilar</strong></p>
+    <p class="generalText"><em>July 31, 2019</em></p>
+    <hr />
+
+    <br />
+
+    <h4 class="articleTitle">APT</h4>
+    <p class="generalText">
+        APT stands for Advanced Package Tool. It’s a high-level package manager for Linux distributions like Debian and Ubuntu. APT is further developed into more specialized tools like apt-get and apt-cache. apt-get is used to install, remove, and upgrade packages. It can also be used to upgrade the operating system. apt-cache is used to search through packages.
+    </p>
+    <ul>
+        <li class="bulletPointGeneralText"><strong>apt-get update</strong>: synchronizes with repositories in /etc/apt/sources.list to notify of any package upgrades available</li>
+        <li class="bulletPointGeneralText"><strong>apt-get upgrade</strong>: upgrades all installed packages to the latest version listed in /etc/apt/sources.list<ul><li>It’s important to run update first so the OS can view if any new package versions are available</li></ul></li>
+        <li class="bulletPointGeneralText"><strong>apt-get dist-upgrade</strong>: “smart” upgrade to prioritize upgrading important packages. Less important packages may be ignored or removed.<ul><li>This command does not upgrade the operating system</li></ul></li>
+        <li class="bulletPointGeneralText"><strong>apt-get install [package_name]</strong> : the OS looks in /etc/apt/sources.list to find the specified package and install it</li>
+        <li class="bulletPointGeneralText"><strong>apt-get remove [package_name]</strong>: removes the package but leaves the configuration files intact.</li>
+        <li class="bulletPointGeneralText"><strong>apt-get purge [package_name]</strong>: removes the package and configuration files</li>
+        <li class="bulletPointGeneralText"><strong>apt-get source [package_name]</strong>: get the source code of a package</li>
+        <li class="bulletPointGeneralText"><strong>apt-get build-dep [package_name]</strong>: builds the dependencies for a package even if it means installing/removing packages</li>
+        <li class="bulletPointGeneralText"><strong>apt-get check</strong>: checks for any broken dependencies</li>
+        <li class="bulletPointGeneralText"><strong>apt-get download [package_name]</strong>: download a package without installing it</li>
+        <li class="bulletPointGeneralText"><strong>apt-get clean</strong>: removes archived packages from the local repository/cache to free up disk space</li>
+        <li class="bulletPointGeneralText"><strong>apt-get autoclean</strong>: removes packages no longer in the listed repositories and older versions of a package</li>
+        <li class="bulletPointGeneralText"><strong>apt-get autoremove</strong>: removes dependencies no longer needed</li>
+        <li class="bulletPointGeneralText"><strong>apt-get changelog [package_name]</strong>: tries to download and display the change log of the current version of a package</li>
+    </ul>
+    <p class="generalText">
+         Options
+    </p>
+    <ul>
+        <li class="bulletPointGeneralText"><strong>-s, --simulate</strong>: simulate the command doesn’t change anything</li>
+        <li class="bulletPointGeneralText"><strong>-y, --yes, --assume-yes</strong>: automatically say yes to yes/no confirmation prompts</li>
+        <li class="bulletPointGeneralText"><strong>--assume-no</strong>: automatically say “no” to yes/no confirmation prompts</li>
+        <li class="bulletPointGeneralText"><strong>-h, --help</strong></li>
+        <li class="bulletPointGeneralText"><strong>-v, --version</strong></li>
+    </ul>
+    <p class="generalText">
+        apt-cache operate on ATP’s package cache. It searches through the package metadata.
+    </p>
+    <ul>
+        <li class="bulletPointGeneralText"><strong>apt-cache showpkg [package_name]</strong>: shows general info on the dependencies related to the package</li>
+        <li class="bulletPointGeneralText"><strong>apt-cache stats</strong>: shows statistics about the cache</li>
+        <li class="bulletPointGeneralText"><strong>apt-cache show [package_name]</strong>: shows general info on a specific package</li>
+        <li class="bulletPointGeneralText"><strong>apt-cache search [regex_pattern]</strong>: prints out the package name and description that match the regex pattern</li>
+        <li class="bulletPointGeneralText"><strong>apt-cache pkgnames</strong>: shows all available packages</li>
+    </ul>
+    <h4 class="articleTitle">YUM</h4>
+    <p class="generalText">
+        YUM is a package manager based on rpm. It can install, remove, update and search through packages. YUM is a high-level package manager used with distributions like RHEL (Red Had Enterprise Linux) and CentOS. There are graphical implementations of YUM like the gnome-packagekit.
+    </p>
+     <ul>
+        <li class="bulletPointGeneralText"><strong>yum install [package_name]</strong>: Installs the latest version of the package(s). It also ensures all dependencies are installed.</li>
+        <li class="bulletPointGeneralText"><strong>yum update [optional:package_name]</strong>: Updates the specified package(s). If no package is specified then it updates all packages</li>
+        <li class="bulletPointGeneralText"><strong>yum update-to [package_name]</strong>: update to a specific version of a package</li>
+        <li class="bulletPointGeneralText"><strong>yum check-update</strong>: lists any packages that have an update available</li>
+        <li class="bulletPointGeneralText"><strong>yum remove [package_name]</strong>: removes the package and its dependencies</li>
+        <li class="bulletPointGeneralText"><strong>yum list</strong>: lists all available and installed packages</li>
+        <li class="bulletPointGeneralText"><strong>yum list available</strong>: lists all packages that can be installed</li>
+        <li class="bulletPointGeneralText"><strong>yum list updates</strong>: lists packages with updates available</li>
+        <li class="bulletPointGeneralText"><strong>yum list installed</strong>: lists all installed packages</li>
+        <li class="bulletPointGeneralText"><strong>yum list [package_name]</strong>: returns packages that exactly match the name given</li>
+        <li class="bulletPointGeneralText"><strong>yum provides [file_path]</strong>: find which package a certain file belongs to</li>
+        <li class="bulletPointGeneralText"><strong>yum search [package_name]</strong>: searches for a package when you don’t know the exact name of the package</li>
+        <li class="bulletPointGeneralText"><strong>yum info [package_name]</strong>: get info on a package</li>
+        <li class="bulletPointGeneralText"><strong>yum clean all</strong>: cleans the YUM cache</li>
+        <li class="bulletPointGeneralText"><strong>yum shell</strong>: enter yum shell mode</li>
+        <li class="bulletPointGeneralText"><strong>yum repolist</strong>: view enabled repositories</li>
+        <li class="bulletPointGeneralText"><strong>yum history</strong>: view yum history</li>
+    </ul>
+    <p class="generalText">
+        Groups are a collection of packages bundled together. You can use them instead of installing packages individually. 
+    </p>
+     <ul>
+        <li class="bulletPointGeneralText"><strong>yum grouplist</strong> OR <strong>yum groups list</strong> list all available groups</li>
+        <li class="bulletPointGeneralText"><strong>yum groups summary</strong>: see the number of installed and available groups</li>
+        <li class="bulletPointGeneralText"><strong>yum groups info “Group Name”</strong>: see the packages within the specified group</li>
+        <li class="bulletPointGeneralText"><strong>yum groups install “Group Name”</strong>: install group packages</li>
+        <li class="bulletPointGeneralText"><strong>yum groups remove “Group Name”</strong>: remove the group’s packages from the system</li>
+    </ul>
+
+    <br>
+</div>
+
+<br />
+<br />

@@ -1,0 +1,76 @@
+@page "/Blog/Linux/PackageManagers"
+<title>Package Managers</title>
+
+<br />
+<br />
+
+<div class="col-md-7 pageFrame">
+
+    <br />
+
+    <hr />
+    <h2 style="margin-left:15px;margin-right:15px;" class="articleTitle">A Brief Overview: Packages, Package Managers, Repositories, and PPAs</h2>
+
+    <p class="generalText"><strong>By Juan Aguilar</strong></p>
+    <p class="generalText"><em>June 26, 2019</em></p>
+    <hr />
+
+    <br />
+
+    <h4 class="articleTitle">Packages</h4>
+    <p class="generalText">
+        A package is a way to neatly distribute software. Packages are a collection of files that contain the software and metadata. Metadata includes the name, version, vendor, checksum, dependencies and so on. A dependency is another package that the software needs in order to work correctly. A package manager will manage the dependencies and make sure there are no duplicates. Packages are in binary format that can be read by computes. There are different binary package formats. The .deb package format is used by Debian, Ubuntu, Linux Mint and etc. Another format is .rpm which is commonly used by Red Hat, Fedora, and SUSE. Arch Linux uses a compressed tarball (.tar.xz). 
+    </p>
+    <p class="generalText">
+        Packages are much easier to maintain than compiling software from source.  Software from source is formatted in a coding language readable by humans. This source code needs to be compiled into binary for computers. Software compiled from source isn’t managed by Package Managers by default. However, there is software out there like CheckInstall & Gentoo Linux that will add compiled software to Package Managers.
+    </p>
+
+    <h4 class="articleTitle">Personal Package Archive: PPA</h4>
+    <p class="generalText">
+        A PPA (Personal Package Archive) is a type of package for software. They are similar to .deb or .rpm packages. PPAs are private repositories made by software developers. Typically, it takes a while to add a package to an official repository. To quickly distribute software, developers use a PPA. This way software doesn’t have to wait to be approved on an official repository. A PPA is in the <strong>ppa:[username]/[appname]</strong> format. To add a PPA to your repository list use: <strong>sudo add-apt-repository ppa:[user]/[appname]</strong>.
+    </p>
+
+    <h4 class="articleTitle">Repositories</h4>
+    <p class="generalText">
+        A repository is a remote storage location for packages. Most of the software for Linux resides in a repository. They provide a central place to get software. Unlike Windows where you would have to go to each application’s website to get the software. Having software in repositories makes managing software less obnoxious than Windows. The official Linux repositories are very well maintained. Teams regularly update, fix security holes, and manage them.
+    </p>
+
+    <h4 class="articleTitle">Package Managers</h4>
+    <p class="generalText">
+        On Linux, you install and manage software through a package manager. Package Managers help manage packages obtained through a repository. Through a Package Manager you can get packages through command line or a GUI interface like the Ubuntu Software Center. There are different types of Package Managers for different Linux flavors. Linux distributions like Ubuntu will use APT (Advanced Package Tool). CentOS similar distributions will use YUM (Yellowdog Updater, Modified) or DNF/Dandified YUM. Arch uses pacman. There are also alternative package managers available to you.
+    </p>
+    <p class="generalText">
+        The upside to Package Managers is having to update software in one central place. Instead of manually updating each application, you only have to use the Package Manager. For example, to update software on Ubuntu you would run: <strong>sudo apt-get upgrade</strong>. That command installs the latest version of all packages currently installed. 
+    </p>
+
+    <h4 class="articleTitle">References</h4>
+    <p class="citation">
+        Ovens, Steve. “The Evolution of Package Managers.” <em>Opensource.com</em>, 26 July 2018, opensource.com/article/18/7/evolution-package-managers.
+    </p>
+    <p class="citation">
+        “Package Manager.” <em>Wikipedia</em>, Wikimedia Foundation, 24 June 2019, en.wikipedia.org/wiki/Package_manager.
+    </p>
+    <p class="citation">
+        “Repositories.” <em>Repositories- Community Help Wiki</em>, 26 June 2019, help.ubuntu.com/community/Repositories.
+    </p>
+    <p class="citation">
+        “Ubuntu Documentation.” <em>AptGet/Howto- Community Help Wiki</em>, 26 June 2019, help.ubuntu.com/community/AptGet/Howto?action=show&redirect=AptGetHowto.
+    </p>
+    <p class="citation">
+        “Ubuntu Documentation.” <em>InstallingSoftware- Community Help Wiki</em>, 26 June 2019, help.ubuntu.com/community/InstallingSoftware.
+    </p>
+    <p class="citation">
+        “Ubuntu Documentation.” <em>Repositories/CommandLine- Community Help Wiki</em>, 26 June 2019, help.ubuntu.com/community/Repositories/CommandLine.
+    </p>
+    <p class="citation">
+        “Ubuntu Documentation.” <em>Repositories/Ubuntu- Community Help Wiki</em>, 26 June 2019, help.ubuntu.com/community/Repositories/Ubuntu.
+    </p>
+    <p class="citation">
+        Wohlscheid, John Paul. “Why Windows Needs a Package Manager.” <em>Hacker Noon</em>, Hacker Noon, 11 Jan. 2017, hackernoon.com/why-windows-needs-a-package-manager-3868cffdec24.
+    </p>
+
+    <br>
+</div>
+
+<br />
+<br />

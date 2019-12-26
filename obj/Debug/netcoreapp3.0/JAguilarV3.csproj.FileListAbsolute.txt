@@ -59,3 +59,9 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Linux/LinuxGamingProton.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/ArticleTemplate.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Linux/LinuxGamingProton.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Linux/PackageManagers.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Linux/PackageManagers.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Linux/APTAndYUM.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Linux/APTAndYUM.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Linux/LinuxDirectories.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Linux/LinuxDirectories.razor.g.cs
