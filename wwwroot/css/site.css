@@ -6,8 +6,8 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /* background-color: #212121; */
-    background-image: url('/images/meme/mistleToe.png');
+    background-color: #212121;
+    /* background-image: url('/images/meme/mistleToe.png'); */
 }
 
 .myFooter {
@@ -21,6 +21,20 @@ html, body {
     margin: auto;
     background-color: #333;
     border-radius: 10px;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+@media (min-width: 1000px) {
+    .pageFrame {
+        margin: auto;
+        background-color: #333;
+        border-radius: 10px;
+        width: 60%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
 }
 
 /*
@@ -107,6 +121,11 @@ html, body {
     color: #CCC;
 }
 
+.articleHomeHeaderTitle {
+    padding-left: 25px;
+    color: #CCC;
+}
+
 /*
     Buttons and Links
     -----------------------------------------------------------
@@ -169,6 +188,11 @@ html, body {
 
 a {
     color: #b39ddb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .subMenuItem {
@@ -303,13 +327,13 @@ app {
     color: red;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1000px) {
     .main .top-row {
         display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     app {
         flex-direction: row;
     }

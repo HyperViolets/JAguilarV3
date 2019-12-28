@@ -1,0 +1,125 @@
+@page "/Blog/Hardware/DesktopRAMBuyingGuide"
+<title>Desktop RAM Buying Guide</title>
+
+<br />
+<br />
+
+<div class="pageFrame">
+
+    <br />
+
+    <hr />
+    <h2 class="articleTitle">Desktop RAM Buying Guide</h2>
+
+    <p class="generalText"><strong>By Juan Aguilar</strong></p>
+    <p class="generalText"><em>December 28, 2018</em></p>
+    <hr />
+
+    <br />
+
+    <h4 class="articleTitle">Memory Type</h4>
+    <p class="generalText">
+        For desktops, the type of RAM you want is double data rate or DDR. Over the years, there have been updated versions of DDR. These include DDR2, DDR3, DDR4, and the newest version of DDR5. As of 2018, DDR5 is still in its early stages and isn't fully supported. I recommend buying DDR4 or DDR3 for your system.
+    </p>
+    <p class="generalText">
+        DDR4 and DDR3 are physically different from each other. DDR3 has 240 pins that runs on 1.5 volts. DDR4 has 288 pins that runs on 1.2 volts. If you want DDR4 then you have to make sure your motherboard supports DDR4. If you want DDR3 then your motherboard must support it. You can't put DDR3 into a DDR4 supported motherboard because it physically won't fit. DDR4 has faster speeds, lower power usage, higher capacities, and better reliability. DDR4 is an improvement over DDR3, but DDR3 is still completely fine to use. Some DDR3 modules perform the same as some DDR4 modules. I recommend going for DDR4 because it's the future of DDR. If you're on a budget build, go for DDR3.
+    </p>
+
+    <h4 class="articleTitle">Capacity</h4>
+    <p class="generalText">
+        As of 2018, it's still recommended to get 8GB of RAM for the average consumer. However, if you're into photo editing, video editing, virtual machines, have multiple displays or any RAM intensive activity then get more RAM. If you're still unsure on how much RAM to get then check your RAM usage. Open all the applications you usually use. Next, open up Task Manager in Windows or System Monitor in Linux. Find the percentage of RAM usage displayed. If your usage is over 80% then get more RAM.
+    </p>
+    <p class="generalText">
+        When talking about capacity, I also have to mention multichannel. RAM uses a memory channel to "talk" with the CPU and vice versa. Each module of RAM has a memory channel. Each memory channel has a 64-bit bus in bandwidth. Having one module of RAM would mean only having one 64-bit bus. Having two modules would mean having two 64-bit buses or a 128-bit bus. That extra performance increases performance, because data can be sent on more than one channel. That's why it's better to have two 4GB RAM modules instead of a single 8GB RAM module. Even though they both have 8GB in total capacity, the two 4GB modules will perform better. Having one RAM module will be single channel. Having two RAM modules will be dual-channel. Having four RAM modules will be quad-channel. I recommend buying RAM in dual-channel. Buy single channel for budget builds. Buy quad-channel if you want the best.
+    </p>
+    <p class="generalText">
+        Also note that your motherboard has to support the number of channels you want. If you want dual-channel RAM then your motherboard has to support dual-channel. This is the same for other channels. Mismatching channels leads to a decrease in performance. To see what you're motherboard supports then look at its manual. The manual came with your motherboard or you can find a digital copy online. Make sure you install RAM into the right slots. Motherboards color-code RAM slots so you know where to install them. You can also check the motherboard manual to correctly know where to install RAM.
+    </p>
+    <p class="generalText">
+        RAM is typically sold in kits for multichannel. A dual-channel kit will have two modules of RAM. A quad-channel kit will have four modules. The modules in the kits are meant to work together. If you decide you want multichannel then buy a kit for its corresponding channel. Six-channel and eight-channel kits exist, but they are meant for servers.
+    </p>
+
+    <h4 class="articleTitle">Speed (It's only half the story)</h4>
+    <p class="generalText">
+        DDR speeds are represented in megahertz (MHz). Originally, they were represented in nanoseconds. The nanoseconds represents how long it took to complete one cycle. The megahertz represent how many cycles were completed in one second. Megahertz is used because bigger numbers are more appealing to customers. It's basically a marketing move. Nanoseconds and megahertz are different ways to say the same thing.
+    </p>
+    <p class="generalText">
+        Generally, higher megahertz will have better performance. I don't recommend buying RAM modules with the highest megahertz. The highest megahertz speeds will most likely mean that they're overclocked. Overclocking leads to instability, decreased lifespan and other negatives. Performance wise, the highest MHz speeds only result in a minor performance boost.
+    </p>
+    <p class="generalText">
+        It's advised to follow JEDEC recommendations when deciding megahertz speed. For DDR3, the most common and stable speed is 1600MHz or DDR3 1600. You can also go for 1866, 2133, and 2400MHz. For DDR4, the most common and stable speed is 2400MHz or DDR4 2400. DDR4 speeds can go much higher, but they will be overclocked. Overclocking RAM modules isn't stable. Other common and stable DDR4 speeds are 2133 and 2666MHz. With those DDR3 and DDR4 speeds, you can't go wrong.
+    </p>
+
+    <h4 class="articleTitle">CAS Latency or CL (It's the other half of the story)</h4>
+    <p class="generalText">
+        In this section I'll talk about a RAM's actual performance. DDR performance is based on speed and latency. Keep in mind that true latency is measured in nanoseconds. The RAM speed is represented in megahertz (MHz) as I've mentioned before. Latency is the CAS Latency or CL listed on the specifications for the RAM module. CAS Latency is the time delay between when a command is entered and executed. Other latencies listed is Timing or RAM Timings. The Timing will consist of four numbers. The first number is the CAS Latency and the other numbers are other latencies. The CAS Latency is the most important to calculate the true latency. A CAS Latency of 9 will mean that there is a nine clock cycle delay.
+    </p>
+    <p class="generalText">
+        As I mentioned, the actual RAM performance is based on speed and latency. Using speed and latency you can calculate the true latency. This will show its actual performance. To calculate true latency, use the following equation: (CAS Latency / RAM Speed in MHz) * 2000. The result will be the true latency in nanoseconds. For example, I have DDR3 1600 installed on my PC with a CAS Latency of 9. So, we simply plug the numbers into the equation. (9/1600)*2000=11.25 nanoseconds. My true latency will be 11.25 nanoseconds.
+    </p>
+    <p class="generalText">
+        Just because a RAM module has a higher speed, it doesn't mean that it will perform better. You also have to take the CAS Latency into consideration. Also, the lower the true latency, the better the performance.
+    </p>
+
+    <h4 class="articleTitle">ECC</h4>
+    <p class="generalText">
+        ECC detects single-bit errors and corrects them. It cannot correct double-bit errors, but they can still be detected. That's ok, because 98% of RAM soft errors are single-bit errors. To have ECC, your processor, motherboard, and RAM module must support ECC to work. However, consumers don't need ECC and not may consumer-based motherboards support it. The main reasoning is because it's expensive and not too useful. ECC is meant for servers or workstations where reliability is the main concern. When RAM shopping, buy non-ECC.
+    </p>
+
+    <h4 class="articleTitle">Unbuffered & Registered</h4>
+    <p class="generalText">
+        A large majority of consumer motherboards support unbuffered RAM modules. Unbuffered RAM lets signals from the memory controller to pass directly to the memory chips. This causes no delay. This way of doing things is cheap and has the highest performance. The drawback is that you're limited on the number of RAM modules and the chips in each module. Unlike consumers, servers and workstations often need registered (buffered) RAM. Servers need a lot of RAM and can't be limited in any way. Registered RAM has registered chips on the module. The registered chips hold data to and from the memory chips. This leads to more chips and RAM modules, but more delay. For your standard desktop computer, buy unbuffered RAM and make sure it's supported on the motherboard.
+    </p>
+
+    <h4 class="articleTitle">References</h4>
+    <p class="citation">
+        Burke, Steve. “RAM Performance Benchmark: Single-Channel vs. Dual-Channel - Does It Matter?” <i>GamersNexus</i>, 8 Mar. 2014, 9:22 AM, www.gamersnexus.net/guides/1349-ram-how-dual-channel-works-vs-single-channel?showall=1.
+    </p>
+    <p class="citation">
+        Covington, Josh. “How Important Is RAM Speed?” <i>Custom Gaming & Enthusiast PC Blog | Velocity Micro</i>, 28 Dec. 2017, www.velocitymicro.com/blog/important-ram-speed/.
+    </p>
+    <p class="citation">
+        Cunningham, Andrew. “Next-Generation DDR5 RAM Will Double the Speed of DDR4 in 2018.” <i>Ars Technica</i>, 31 Mar. 2017, 11:45 AM, arstechnica.com/gadgets/2017/03/next-generation-ddr5-ram-will-double-the-speed-of-ddr4-in-2018/.
+    </p>
+    <p class="citation">
+        “DDR4 Vs DDR3 with Linus.” <i>YouTube</i>, 12 Nov. 2014, youtu.be/Pvac1AFXeWM.
+    </p>
+    <p class="citation">
+        “Does RAM Speed REALLY Matter?” <i>YouTube</i>, 20 Apr. 2017, youtu.be/D_Yt4vSZKVk.
+    </p>
+    <p class="citation">
+        “Guide to RAM Memory Channels as Fast As Possible.” <i>YouTube</i>, 5 Feb. 2013, youtu.be/-D8fhsXqq4o.
+    </p>
+    <p class="citation">
+        “How Do Memory Timings Work?” <i>YouTube</i>, 9 May 2017, youtu.be/Yed-a9vqTYc.
+    </p>
+    <p class="citation">
+        “Is 8GB of RAM Enough In 2018?” <i>YouTube</i>, 5 Feb. 2018, youtu.be/HnuNs_Nu46Q.
+    </p>
+    <p class="citation">
+        Kyritsis, Angelos. “What Is the Real RAM Speed and Should I Get The Most MHz?” <i>PCsteps.com</i>, 25 Apr. 2017, www.pcsteps.com/7932-real-ram-speed-mhz-cas-latency/.
+    </p>
+    <p class="citation">
+        “Memory - RAM Performance: Speed vs. CAS Latency.” <i>Crucial</i>, 2018, www.crucial.com/usa/en/memory-performance-speed-latency.
+    </p>
+    <p class="citation">
+        “Memory.” <i>Upgrading and Repairing PCs</i>, by Scott Mueller, Que, 2015, pp. 355–408.
+    </p>
+    <p class="citation">
+        Moore, Bo. “The Differences between DDR3 and DDR4 RAM.” <i>Pcgamer</i>, 10 Feb. 2015, www.pcgamer.com/the-differences-between-ddr3-and-ddr4-ram/.
+    </p>
+    <p class="citation">
+        “RAM Upgrade Guide - What You Need to Know.” <i>YouTube</i>, 23 June 2015, youtu.be/oRCXYXszi8U.
+    </p>
+    <p class="citation">
+        Soderstrom, Thomas. “DDR3 Vs DDR4: ASRock's Fatal1ty Z170 Gaming K4 Comparison.” <i>Tom's Hardware</i>, 24 Feb. 2016, 6:00 AM, www.tomshardware.com/reviews/asrock-fatal1ty-z170-gaming-k4-d3-ddr4-vs-ddr3,4431-2.html.
+    </p>
+    <p class="citation">
+        “What Is Dual Channel Memory?” <i>Crucial</i>, 2018, www.crucial.com/usa/en/learn-with-crucial/about-memory/what-is-dual-channel-memory.
+    </p>
+
+    <br>
+</div>
+
+<br />
+<br />
