@@ -1,0 +1,90 @@
+@page "/Blog/Hardware/RAIDLevels"
+<title>RAID Levels</title>
+
+<br />
+<br />
+
+<div class="pageFrame">
+
+    <br />
+
+    <hr />
+    <h2 class="articleTitle">RAID Levels</h2>
+
+    <p class="generalText"><strong>By Juan Aguilar</strong></p>
+    <p class="generalText"><em>August 16, 2019</em></p>
+    <hr />
+
+    <br />
+
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAIDController.png" />
+    <p class="generalText">
+        RAID stands for Redundant Array of Independent Disks or Redundant Array of Inexpensive Disks. As the name suggests, RAID provides redundancy for an array/set of disks. Also, performance can be increased such as read performance. Redundancy can be achieved through different techniques such as mirroring and parity. Preventing data loss is important in an enterprise level. Even if one disk is lost, the data is still intact with RAID. It’s also important to note that RAID is NOT a replacement for backups!
+    </p>
+    <p class="generalText">
+        RAID can be applied to both hard drives and SSDs. Disks can be connected through SCSI, IDE, SATA, or Fiber Channel for a RAID configuration. Configuration is done through a RAID Controller. The RAID Controller can be hardware or software. Hardware provides better performance overall. Hardware controllers are highly recommended for RAID 5, 6, 50, and 60 since they need to calculate parity and rebuild data. Also, if you have a large number of disks in a RAID cluster, it’s recommend to get a hardware controller.
+    </p>
+
+    <h4 class="articleTitle">RAID Levels</h4>
+    <img class="bookImage" src="/images/Blog/Hardware/RAIDLevels/RAIDLevels.png" />
+    <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID0.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID1.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID5.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID6.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID10.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID01.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID50.png" />
+     <br>
+    <img class="articleImage" src="/images/Blog/Hardware/RAIDLevels/RAID60.png" />
+    <br>
+
+    <h4 class="articleTitle">Not Widely Implemented RAID Levels</h4>
+    <p class="generalText">
+        RAID 2 is bit-level striping with a dedicated disk for ECC storage. ECC is error correcting code and it’s similar to parity. ECC provides “on the fly” data error correction. This RAID level didn’t catch on because modern hard drives and SSDs already have ECC built into them.        
+    </p>
+    <p class="generalText">
+        RAID 3 is byte-level striping with a dedicated parity disk. Instead of parity being spread across all disks, it’s stored on one disk.
+    </p>
+    <p class="generalText">
+        RAID 4 is block-level striping with a dedicated parity disk.
+    </p>
+    <p class="generalText">
+        RAID 03 or RAID 53 is byte-level striping with a dedicated parity disk.
+    </p>
+    <p class="generalText">
+        RAID 100 is striping data across RAID 10 arrays.
+    </p>
+
+    <br>
+    <h4 class="articleTitle">References</h4>
+    <p class="citation">
+        Lynn, Samara. “RAID Levels Explained.” <em>PCMAG</em>, 27 Mar. 2014, www.pcmag.com/article/255278/raid-levels-explained.
+    </p>
+    <p class="citation">
+        Natarajan, Ramesh. “RAID 2, RAID 3, RAID 4, RAID 6 Explained with Diagram.” <em>The Geek Stuff</em>, 21 Nov. 2011, www.thegeekstuff.com/2011/11/raid2-raid3-raid4-raid6/.
+    </p>
+    <p class="citation">
+        “RAID Calculator.” <em>Free RAID Calculator - Caclulate RAID Array Capacity and Fault Tolerance.</em>, 16 Aug. 2019, www.raid-calculator.com/default.aspx.
+    </p>
+    <p class="citation">
+        “Raid Level Tutorial to Understand Raid Technology.” <em>ACNC</em>, 16 Aug. 2019, www.acnc.com/raid.php.
+    </p>
+    <p class="citation">
+        “RAID.” <em>Prepressure</em>, 17 Jan. 2017, www.prepressure.com/library/technology/raid.
+    </p>
+    <p class="citation">
+        “Standard RAID Levels.” <em>Wikipedia</em>, Wikimedia Foundation, 25 July 2019, en.wikipedia.org/wiki/Standard_RAID_levels.
+    </p>
+
+    <br>
+</div>
+
+<br />
+<br />
