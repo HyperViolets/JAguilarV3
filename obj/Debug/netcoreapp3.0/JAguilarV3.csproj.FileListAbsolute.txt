@@ -103,3 +103,5 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/SSHAndSFTPWithLinux.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/WiFiOverview.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/WiFiOverview.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Coding/PythonBasics.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Coding/PythonBasics.razor.g.cs
