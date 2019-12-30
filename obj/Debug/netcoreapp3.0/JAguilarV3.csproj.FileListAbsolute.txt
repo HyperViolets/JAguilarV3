@@ -89,3 +89,17 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Hardware/NetworkSwitchOverview.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Hardware/RAIDLevels.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Hardware/RAIDLevels.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/TCPIPAndOSINetworkingModel.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/TCPIPAndOSINetworkingModel.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/EthernetAndTwistedPairCables.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/EthernetAndTwistedPairCables.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/WideAreaNetworkWAN.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/WideAreaNetworkWAN.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/IPv4.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/IPv4.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/IPv6.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/IPv6.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/SSHAndSFTPWithLinux.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/SSHAndSFTPWithLinux.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Blog/Networking/WiFiOverview.razor.g.cs
+/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Blog/Networking/WiFiOverview.razor.g.cs
