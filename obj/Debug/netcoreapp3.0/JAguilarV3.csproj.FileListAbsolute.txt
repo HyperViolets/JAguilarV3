@@ -15,9 +15,7 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.MvcApplicationPartsAssemblyInfo.cache
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.RazorComponent.input.cache
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/App.razor.g.cs
-/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Counter.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Error.razor.g.cs
-/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Index.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
@@ -27,9 +25,7 @@
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.TagHelpers.output.cache
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/JAguilarV3.RazorCoreGenerate.cache
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/App.razor.g.cs
-/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Counter.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Error.razor.g.cs
-/home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/FetchData.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Pages/Index.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Shared/MainLayout.razor.g.cs
 /home/juan/Documents/Developing/JAguilarV3/obj/Debug/netcoreapp3.0/Razor/Shared/NavMenu.razor.g.cs

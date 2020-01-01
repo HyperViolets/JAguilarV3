@@ -10,6 +10,10 @@ html, body {
     /* background-image: url('/images/meme/mistleToe.png'); */
 }
 
+body.light-mode{
+    background-color: #FFF;
+}
+
 .myFooter {
     background-color: #212121;
     color: #CCC;
@@ -247,16 +251,14 @@ hr {
     text-align: center;
 }
 
+/*
+    CSS for top and bottom of webpage (header/footer)
+    -----------------------------------------------------------
+*/
 app {
     position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.top-row {
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
 }
 
 .bottom-row {
@@ -269,28 +271,22 @@ app {
     flex: 1;
 }
 
-.main .top-row {
-    background-color: #212121;
-    color: #CCC;
-    justify-content: flex-end;
-}
-
 .main .bottom-row {
     background-color: #212121;
     color: #CCC;
     justify-content: flex-end;
 }
 
-.main .top-row>a {
-    margin-left: 1.5rem;
-}
-
+/*
+    CSS for the Side Bar Nav Menu
+    -----------------------------------------------------------
+*/
 .sidebar {
     background-color: #212121;
 }
 
 .sidebar .top-row {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #212121;
 }
 
 .sidebar .navbar-brand {
