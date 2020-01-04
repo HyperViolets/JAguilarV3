@@ -1,197 +1,203 @@
-@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url("open-iconic/font/css/open-iconic-bootstrap.min.css");
 /*
     Overal Appearance
     --------------------------------------------------------------
 */
-
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #212121;
-    /* background-image: url('/images/meme/mistleToe.png'); */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* background-image: url('/images/meme/mistleToe.png'); */
 }
 
-body.light-mode{
-    background-color: #FFF;
+body.dark-mode {
+  background-color: #212121;
 }
 
-.myFooter {
-    background-color: #212121;
-    color: #CCC;
-    width: 100%;
-    font-size: 12px;
+body.light-mode {
+  background-color: #b39ddb;
+}
+
+body.light-mode .myFooter {
+  background-color: #26b050;
+  color: #b39ddb;
+  width: 100%;
+  font-size: 12px;
+}
+
+.myFooter.dark-mode {
+  background-color: #212121;
+  color: #CCC;
+  width: 100%;
+  font-size: 12px;
 }
 
 .pageFrame {
-    margin: auto;
-    background-color: #333;
-    border-radius: 10px;
-    width: 100%;
-    padding-left: 11px;
-    padding-right: 11px;
+  margin: auto;
+  background-color: #333;
+  border-radius: 10px;
+  width: 100%;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 @media (min-width: 1000px) {
-    .pageFrame {
-        margin: auto;
-        background-color: #333;
-        border-radius: 10px;
-        width: 60%;
-        padding-left: 11px;
-        padding-right: 11px;
-    }
+  .pageFrame {
+    margin: auto;
+    background-color: #333;
+    border-radius: 10px;
+    width: 60%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
 }
 
 /*
     Images
     ------------------------------------------------------------
 */
-
 .homePortraitImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 25%;
-    max-height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+  max-height: 25%;
 }
 
 .bookImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .articleImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media (min-width: 1000px) {
-    .articleImage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 90%;
-        max-height: 90%;
-    }
+  .articleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
 
 /*
     Text and Bullet-Point Text
     -----------------------------------------------------------
 */
-
 .generalText {
-    text-align: justify;
-    font-size: 16px;
-    margin: 16px;
-    word-wrap: break-word;
-    color: #CCC;
+  text-align: justify;
+  font-size: 16px;
+  margin: 16px;
+  word-wrap: break-word;
+  color: #CCC;
 }
 
 .bulletPointGeneralText {
-    text-align: justify;
-    font-size: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
-    word-wrap: break-word;
-    color: #CCC;
+  text-align: justify;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  word-wrap: break-word;
+  color: #CCC;
 }
 
 .generalTitle {
-    font-size: 26px;
-    margin-left: 16px;
-    margin-right: 16px;
-    word-wrap: break-word;
-    color: #CCC;
+  font-size: 26px;
+  margin-left: 16px;
+  margin-right: 16px;
+  word-wrap: break-word;
+  color: #CCC;
 }
 
 .citation {
-    margin: 32px;
-    text-indent: -16px;
-    font-size: 16px;
-    word-wrap: break-word;
-    color: #CCC;
+  margin: 32px;
+  text-indent: -16px;
+  font-size: 16px;
+  word-wrap: break-word;
+  color: #CCC;
 }
 
 .articleTitle {
-    color: #b39ddb;
-    font-size: 26px;
-    margin-left: 16px;
-    margin-right: 16px;
-    word-wrap: break-word;
+  color: #b39ddb;
+  font-size: 26px;
+  margin-left: 16px;
+  margin-right: 16px;
+  word-wrap: break-word;
 }
 
 .articleHomeTitle {
-    color: #CCC;
+  color: #CCC;
 }
 
 .articleSubTitle {
-    font-size: 13px;
-    color: #CCC;
+  font-size: 13px;
+  color: #CCC;
 }
 
 .articleHomeHeaderTitle {
-    padding-left: 25px;
-    color: #CCC;
+  padding-left: 25px;
+  color: #CCC;
 }
 
 /*
     Buttons and Links
     -----------------------------------------------------------
 */
-
 .myButton {
-    background-color: #333;
-    color: #CCC;
-    border-left: 4px solid #b39ddb;
-    height: 3rem;
-    border-radius: 0rem;
-    text-align: left;
-    width: 100%;
-    font-size: 16px;
+  background-color: #333;
+  color: #CCC;
+  border-left: 4px solid #b39ddb;
+  height: 3rem;
+  border-radius: 0rem;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
 }
 
 .myOtherButton {
-    background-color: #333;
-    color: #CCC;
-    border: 2px solid #CCC;
-    border-radius: 5px;
-    height: 3rem;
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
+  background-color: #333;
+  color: #CCC;
+  border: 2px solid #CCC;
+  border-radius: 5px;
+  height: 3rem;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
 }
 
 .myOtherButton:hover {
-    background-color: #b39ddb;
-    color: #212121;
-    border-color: #212121;
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
 }
 
 .myButton:hover {
-    background-color: #b39ddb;
-    color: #212121;
-    border-color: #212121;
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
 }
 
 .nav-item a {
-    background-color: #333;
-    color: #CCC;
-    border-left: 4px solid #b39ddb;
-    height: 3rem;
-    text-align: left;
-    font-size: 16px;
+  background-color: #333;
+  color: #CCC;
+  border-left: 4px solid #b39ddb;
+  height: 3rem;
+  text-align: left;
+  font-size: 16px;
 }
 
 .nav-item a:hover {
-    background-color: #b39ddb;
-    color: #212121;
-    border-color: #212121;
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
 }
 
 /* .nav-item a.active {
@@ -199,56 +205,54 @@ body.light-mode{
     color: #212121;
     border-color: #212121;
 } */
-
 a {
-    color: #b39ddb;
-    text-decoration: none;
+  color: #b39ddb;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .subMenuItem {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 /*
     CSS for Article Home Pages
     -----------------------------------------------------------
 */
-
 .articleBox {
-    padding-left: 25px;
-    padding-top: 8px;
-    border: 3px solid #333;
-    border-radius: 5px;
-    display: block;
-    background-color: #333;
+  padding-left: 25px;
+  padding-top: 8px;
+  border: 3px solid #333;
+  border-radius: 5px;
+  display: block;
+  background-color: #333;
 }
 
-.articleBox:hover>p {
-    color: #b39ddb;
+.articleBox:hover > p {
+  color: #b39ddb;
 }
 
-.articleBox:hover>h3 {
-    color: #b39ddb;
+.articleBox:hover > h3 {
+  color: #b39ddb;
 }
 
 .articleBox:hover {
-    background-color: #212121;
-    border: 3px solid #212121;
-    border-radius: 5px;
+  background-color: #212121;
+  border: 3px solid #212121;
+  border-radius: 5px;
 }
 
 hr {
-    border-top: 1px dashed #CCC;
-    text-align: center;
+  border-top: 1px dashed #CCC;
+  text-align: center;
 }
 
 .articleHr {
-    border-top: 1px solid #CCC;
-    text-align: center;
+  border-top: 1px solid #CCC;
+  text-align: center;
 }
 
 /*
@@ -256,25 +260,25 @@ hr {
     -----------------------------------------------------------
 */
 app {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .bottom-row {
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .main {
-    flex: 1;
+  flex: 1;
 }
 
 .main .bottom-row {
-    background-color: #212121;
-    color: #CCC;
-    justify-content: flex-end;
+  background-color: #212121;
+  color: #CCC;
+  justify-content: flex-end;
 }
 
 /*
@@ -282,86 +286,86 @@ app {
     -----------------------------------------------------------
 */
 .sidebar {
-    background-color: #212121;
+  background-color: #212121;
 }
 
 .sidebar .top-row {
-    background-color: #212121;
+  background-color: #212121;
 }
 
 .sidebar .navbar-brand {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .sidebar .oi {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
+  width: 2rem;
+  font-size: 1.1rem;
+  vertical-align: text-top;
+  top: -2px;
 }
 
 .nav-item {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
 }
 
 .nav-item:first-of-type {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .nav-item:last-of-type {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .content {
-    padding-top: 1.1rem;
+  padding-top: 1.1rem;
 }
 
 .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .valid.modified:not([type=checkbox]) {
-    outline: 1px solid #26b050;
+  outline: 1px solid #26b050;
 }
 
 .invalid {
-    outline: 1px solid red;
+  outline: 1px solid red;
 }
 
 .validation-message {
-    color: red;
+  color: red;
 }
 
 @media (max-width: 1000px) {
-    .main .top-row {
-        display: none;
-    }
+  .main .top-row {
+    display: none;
+  }
 }
 
 @media (min-width: 1000px) {
-    app {
-        flex-direction: row;
-    }
-    .sidebar {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-    .main .top-row {
-        position: sticky;
-        top: 0;
-    }
-    .main>div {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
-    .navbar-toggler {
-        display: none;
-    }
-    .sidebar .collapse {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
+  app {
+    flex-direction: row;
+  }
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  .main .top-row {
+    position: sticky;
+    top: 0;
+  }
+  .main > div {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .sidebar .collapse {
+    /* Never collapse the sidebar for wide screens */
+    display: block;
+  }
 }

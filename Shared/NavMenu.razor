@@ -1,4 +1,6 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
+﻿@inject IJSRuntime JSRuntime;
+
+<div class="top-row pl-4 navbar navbar-dark">
     
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
@@ -46,6 +48,11 @@
                 Contact
             </NavLink>
         </li>
+        <li class="nav-item px-3" @onclick="toggleDarkLight">
+            <button class="btn myButton">
+                Dark Mode?
+            </button>
+        </li>
     </ul>
 </div>
 
@@ -64,5 +71,8 @@
         collapseNavMenu = !collapseNavMenu;
         collapseBlogMenu = !collapseBlogMenu;
     }
+    private async Task toggleDarkLight()
+    {
+        await JSRuntime.InvokeVoidAsync("toggleDarkLight");
+    }
 }
-
