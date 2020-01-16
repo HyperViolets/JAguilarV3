@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/home/juan/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/juan/Documents/Developing/JAguilarV3/JAguilarV3.csproj",
+      "projectUniqueName": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/JAguilarV3.csproj",
       "projectName": "JAguilarV3",
-      "projectPath": "/home/juan/Documents/Developing/JAguilarV3/JAguilarV3.csproj",
-      "packagesPath": "/home/juan/.nuget/packages/",
-      "outputPath": "/home/juan/Documents/Developing/JAguilarV3/obj/",
+      "projectPath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/JAguilarV3.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/home/juan/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -57,6 +53,14 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.0.2, 3.0.2]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[3.0.0, 3.0.0]"
           }
@@ -69,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
       }
     }
   }
