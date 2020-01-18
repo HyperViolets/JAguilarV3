@@ -24,8 +24,9 @@
         }
     </script>
     <script>
+        var body = document.getElementById("bodies");
+        body.className = "dark-mode";
         function toggleDarkLight() {
-            var body = document.getElementById("bodies");
             var currentClass = body.className;
             body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
         }

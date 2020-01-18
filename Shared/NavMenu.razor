@@ -48,10 +48,17 @@
                 Contact
             </NavLink>
         </li>
-        <li class="nav-item px-3" @onclick="toggleDarkLight">
-            <button class="btn myButton">
-                Dark Mode?
-            </button>
+        <li class="nav-item px-3">
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1" @onclick="toggleDarkLight">
+                <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+            </div>
+            <div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </li>
     </ul>
 </div>

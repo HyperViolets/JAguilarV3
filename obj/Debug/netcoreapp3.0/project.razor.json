@@ -1,0 +1,205 @@
+{
+  "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/JAguilarV3.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "JAguilarV3",
+  "Documents": [
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Contact.razor",
+      "TargetPath": "Pages/Contact.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/WiFiOverview.razor",
+      "TargetPath": "Pages/Blog/Networking/WiFiOverview.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopMonitorBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopMonitorBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/NetworkingHome.razor",
+      "TargetPath": "Pages/Blog/Networking/NetworkingHome.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Linux/LinuxDirectories.razor",
+      "TargetPath": "Pages/Blog/Linux/LinuxDirectories.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/IPv4.razor",
+      "TargetPath": "Pages/Blog/Networking/IPv4.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/_Host.cshtml",
+      "TargetPath": "Pages/_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Linux/LinuxGamingProton.razor",
+      "TargetPath": "Pages/Blog/Linux/LinuxGamingProton.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/IPv6.razor",
+      "TargetPath": "Pages/Blog/Networking/IPv6.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/HardwareHome.razor",
+      "TargetPath": "Pages/Blog/Hardware/HardwareHome.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Linux/PackageManagers.razor",
+      "TargetPath": "Pages/Blog/Linux/PackageManagers.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/SSHAndSFTPWithLinux.razor",
+      "TargetPath": "Pages/Blog/Networking/SSHAndSFTPWithLinux.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopPowerSupplyBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopPowerSupplyBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Coding/CodingHome.razor",
+      "TargetPath": "Pages/Blog/Coding/CodingHome.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/NetworkSwitchOverview.razor",
+      "TargetPath": "Pages/Blog/Hardware/NetworkSwitchOverview.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/EthernetPatchPanel.razor",
+      "TargetPath": "Pages/Blog/Hardware/EthernetPatchPanel.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/ServerRack.razor",
+      "TargetPath": "Pages/Blog/Hardware/ServerRack.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopMotherboardBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopMotherboardBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopRAMBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopRAMBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopGamingGraphicsCardBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopGamingGraphicsCardBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopInternalHardDriveBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopInternalHardDriveBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/WideAreaNetworkWAN.razor",
+      "TargetPath": "Pages/Blog/Networking/WideAreaNetworkWAN.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Shared/NavMenu.razor",
+      "TargetPath": "Shared/NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Index.razor",
+      "TargetPath": "Pages/Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/RAIDLevels.razor",
+      "TargetPath": "Pages/Blog/Hardware/RAIDLevels.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopInternalSSDBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopInternalSSDBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/EthernetAndTwistedPairCables.razor",
+      "TargetPath": "Pages/Blog/Networking/EthernetAndTwistedPairCables.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Linux/LinuxHome.razor",
+      "TargetPath": "Pages/Blog/Linux/LinuxHome.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Linux/APTAndYUM.razor",
+      "TargetPath": "Pages/Blog/Linux/APTAndYUM.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Coding/PythonBasics.razor",
+      "TargetPath": "Pages/Blog/Coding/PythonBasics.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Shared/MainLayout.razor",
+      "TargetPath": "Shared/MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Networking/TCPIPAndOSINetworkingModel.razor",
+      "TargetPath": "Pages/Blog/Networking/TCPIPAndOSINetworkingModel.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Blog/Hardware/DesktopProcessorBuyingGuide.razor",
+      "TargetPath": "Pages/Blog/Hardware/DesktopProcessorBuyingGuide.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/Error.razor",
+      "TargetPath": "Pages/Error.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/Pages/ArticleTemplate.razor",
+      "TargetPath": "Pages/ArticleTemplate.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

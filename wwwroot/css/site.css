@@ -8,22 +8,7 @@ html, body {
   /* background-image: url('/images/meme/mistleToe.png'); */
 }
 
-body.dark-mode {
-  background-color: #212121;
-}
-
-body.light-mode {
-  background-color: #b39ddb;
-}
-
-body.light-mode .myFooter {
-  background-color: #26b050;
-  color: #b39ddb;
-  width: 100%;
-  font-size: 12px;
-}
-
-.myFooter.dark-mode {
+.myFooter {
   background-color: #212121;
   color: #CCC;
   width: 100%;
@@ -48,6 +33,276 @@ body.light-mode .myFooter {
     padding-left: 11px;
     padding-right: 11px;
   }
+}
+
+body.dark-mode {
+  background-color: #212121;
+}
+
+body.dark-mode .myFooter {
+  background-color: #212121;
+  color: #CCC;
+}
+
+body.dark-mode .pageFrame {
+  background-color: #333;
+}
+
+@media (min-width: 1000px) {
+  body.dark-mode .pageFrame {
+    background-color: #333;
+  }
+}
+
+body.dark-mode .homeTitleText {
+  color: #CCC;
+}
+
+body.dark-mode .generalText {
+  color: #CCC;
+}
+
+body.dark-mode .bulletPointGeneralText {
+  color: #CCC;
+}
+
+body.dark-mode .generalTitle {
+  color: #CCC;
+}
+
+body.dark-mode .citation {
+  color: #CCC;
+}
+
+body.dark-mode .articleTitle {
+  color: #b39ddb;
+}
+
+body.dark-mode .articleHomeTitle {
+  color: #CCC;
+}
+
+body.dark-mode .articleSubTitle {
+  color: #CCC;
+}
+
+body.dark-mode .articleHomeHeaderTitle {
+  padding-left: 25px;
+  color: #CCC;
+}
+
+body.dark-mode .myButton {
+  background-color: #333;
+  color: #CCC;
+  border-left: 4px solid #b39ddb;
+}
+
+body.dark-mode .myOtherButton {
+  background-color: #333;
+  color: #CCC;
+  border: 2px solid #CCC;
+}
+
+body.dark-mode .myOtherButton:hover {
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
+}
+
+body.dark-mode .myButton:hover {
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
+}
+
+body.dark-mode .nav-item a {
+  background-color: #333;
+  color: #CCC;
+  border-left: 4px solid #b39ddb;
+}
+
+body.dark-mode .nav-item a:hover {
+  background-color: #b39ddb;
+  color: #212121;
+  border-color: #212121;
+}
+
+body.dark-mode a {
+  color: #b39ddb;
+}
+
+body.dark-mode .articleBox {
+  border: 3px solid #333;
+  background-color: #333;
+}
+
+body.dark-mode .articleBox:hover > p {
+  color: #b39ddb;
+}
+
+body.dark-mode .articleBox:hover > h3 {
+  color: #b39ddb;
+}
+
+body.dark-mode .articleBox:hover {
+  background-color: #212121;
+  border: 3px solid #212121;
+}
+
+body.dark-mode hr {
+  border-top: 1px dashed #CCC;
+}
+
+body.dark-mode .articleHr {
+  border-top: 1px solid #CCC;
+}
+
+body.dark-mode .main .bottom-row {
+  background-color: #212121;
+  color: #CCC;
+}
+
+body.dark-mode .sidebar {
+  background-color: #212121;
+}
+
+body.dark-mode .sidebar .top-row {
+  background-color: #212121;
+}
+
+body.light-mode {
+  background-color: #87c5f5;
+}
+
+body.light-mode .myFooter {
+  background-color: #87c5f5;
+  color: black;
+}
+
+body.light-mode .pageFrame {
+  background-color: ghostwhite;
+}
+
+@media (min-width: 1000px) {
+  body.light-mode .pageFrame {
+    background-color: ghostwhite;
+  }
+}
+
+body.light-mode .homeTitleText {
+  color: black;
+}
+
+body.light-mode .generalText {
+  color: black;
+}
+
+body.light-mode .bulletPointGeneralText {
+  color: black;
+}
+
+body.light-mode .generalTitle {
+  color: black;
+}
+
+body.light-mode .citation {
+  color: black;
+}
+
+body.light-mode .articleTitle {
+  color: #87c5f5;
+}
+
+body.light-mode .articleHomeTitle {
+  color: black;
+}
+
+body.light-mode .articleSubTitle {
+  color: black;
+}
+
+body.light-mode .articleHomeHeaderTitle {
+  padding-left: 25px;
+  color: black;
+}
+
+body.light-mode .myButton {
+  background-color: ghostwhite;
+  color: black;
+  border-left: 4px solid #87c5f5;
+}
+
+body.light-mode .myOtherButton {
+  background-color: ghostwhite;
+  color: black;
+  border: 2px solid black;
+}
+
+body.light-mode .myOtherButton:hover {
+  background-color: #87c5f5;
+  color: #4b4b4b;
+  border-color: #4b4b4b;
+}
+
+body.light-mode .myButton:hover {
+  background-color: #87c5f5;
+  color: #4b4b4b;
+  border-color: #4b4b4b;
+}
+
+body.light-mode .nav-item a {
+  background-color: ghostwhite;
+  color: black;
+  border-left: 4px solid #87c5f5;
+}
+
+body.light-mode .nav-item a:hover {
+  background-color: #87c5f5;
+  color: #4b4b4b;
+  border-color: #4b4b4b;
+}
+
+body.light-mode a {
+  color: #87c5f5;
+}
+
+body.light-mode .articleBox {
+  border: 3px solid ghostwhite;
+  background-color: ghostwhite;
+}
+
+body.light-mode .articleBox:hover > p {
+  color: #87c5f5;
+}
+
+body.light-mode .articleBox:hover > h3 {
+  color: #87c5f5;
+}
+
+body.light-mode .articleBox:hover {
+  background-color: #4b4b4b;
+  border: 3px solid #4b4b4b;
+}
+
+body.light-mode hr {
+  border-top: 1px dashed black;
+}
+
+body.light-mode .articleHr {
+  border-top: 1px solid black;
+}
+
+body.light-mode .main .bottom-row {
+  background-color: #87c5f5;
+  color: black;
+}
+
+body.light-mode .sidebar {
+  background-color: #4b4b4b;
+}
+
+body.light-mode .sidebar .top-row {
+  background-color: #4b4b4b;
 }
 
 /*
@@ -92,6 +347,10 @@ body.light-mode .myFooter {
     Text and Bullet-Point Text
     -----------------------------------------------------------
 */
+.homeTitleText {
+  color: #CCC;
+}
+
 .generalText {
   text-align: justify;
   font-size: 16px;
