@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/JAguilarV3.csproj",
+      "projectUniqueName": "/home/juan/Documents/Programming/JAv3Code/JAguilarV3/JAguilarV3.csproj",
       "projectName": "JAguilarV3",
-      "projectPath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/JAguilarV3.csproj",
+      "projectPath": "/home/juan/Documents/Programming/JAv3Code/JAguilarV3/JAguilarV3.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/juan/Documents/Projects/JAv3Code/JAguilarV3/obj/",
+      "outputPath": "/home/juan/Documents/Programming/JAv3Code/JAguilarV3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"
